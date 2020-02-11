@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <AssemblyName>Commons.Linq.Extension</AssemblyName>
+        <RootNamespace>Commons.Linq.Extension</RootNamespace>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+</Project>

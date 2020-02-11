@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>Commons</RootNamespace>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Commons.TypeSafeEnum</AssemblyName>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\Commons.TypeSafeEnum.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\Commons.TypeSafeEnum.xml</DocumentationFile>
+    </PropertyGroup>
+
+</Project>

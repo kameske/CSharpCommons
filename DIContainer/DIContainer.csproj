@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <RootNamespace>Commons</RootNamespace>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Commons.DIContainer</AssemblyName>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\Commons.DIContainer.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\Commons.DIContainer.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\TypeSafeEnum\TypeSafeEnum.csproj" />
+        <ProjectReference Include="..\Validator\Validator.csproj" />
+    </ItemGroup>
+
+</Project>
